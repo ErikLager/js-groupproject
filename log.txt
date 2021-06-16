@@ -1,0 +1,20 @@
+11/6-21
+    Idag har jag skrivit stora delar av js-koden som hämtar från api:t och skriver ut det på hemsidan
+    
+
+14/6-21
+    Ett problem jag missade var i fall api:t ligger nere (vilket det gör nu), så något sätt att visa för användaren
+    att sökningen inte gick igenom och försöka prova igen senare måste implementeras.
+    När det var klart så blev det lite styling
+
+15/6-21
+    Det verkade som att api:t som jag använde har helt krashat, så med lite hjälp använder jag nu
+    ett nytt api, så koden har behövts skrivas om. Bland annat så är formateringen av return-datan
+    omskriven och nu är fel hanteringen bättre. Nu kan den visa ifall api:t ligger nere och om
+    användaren har skrivit fel eller låten inte existerar (om man söker på en låt som inte finns
+    så ger api:t statuskoden 200, så då kollar jag om strängen är tom)
+
+16/6-21
+    Jag fixade så nu står det lite information på sidan, vad är detta för sida och hur den används bland annat.
+    Jag har också lagt till så det dyker upp en div under input fältet om det är tomt, för att meddela användaren
+    att fältet är tomt. Jag har också ändrat lite på typsnittet, vilket aldrig kommer att kännas som jag har hittat rätt
