@@ -1,11 +1,11 @@
 Hur kan du i din webbläsare se ifall din Javascript-kod lyckas göra en request mot API:et?
-    När ett fetch anrop har lyckats får man tillbaka en 2xx HTTP-statuskod
-    I detta fallet så är 200 koden som söks, då vi bara läser från api:t.
+    När ett fetch anrop har lyckats får man tillbaka en 200 HTTP-statuskod
+    Det finns andra 2xx koder som används i andra sammanhang (201 - Created, används i databaser)
 
 Förklara hur man kan debugga Javascript.
     Jag har ett litet eget sätt jag nämnde i "js-inl2" repot på github
-    Jag skriver ut console.log() med den aktuella raden där något går fel.
+    Jag skriver ut console.log() med radnummret i, runt de rader kod som inte gör som planerat
     Om jag inte vet var felet uppstår så skriver jag det innan och efter de rader jag misstänker
     kan vara problemet. När jag kör programmet då så ser jag precis vilka rader
-    som har körts och på så sätt ser jag ifall programmet inte går in i en
-    if-sats till exempel och då kan jag sätta ut "Debugger" och gå igenom programmet rad för rad
+    som har körts och på så sätt ser jag ifall programmet inte går in i en if-sats 
+    till exempel och då kan jag sätta ut "Debugger" och gå igenom programmet rad för rad

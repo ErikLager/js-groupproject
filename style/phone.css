@@ -1,0 +1,10 @@
+/* For screes with width under 550px */
+@media (max-width: 550px){
+    input{
+        width: 98%;
+        height: 2rem;
+    }
+    .lyric{
+        width: 95%;
+    }
+}

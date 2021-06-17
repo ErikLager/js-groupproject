@@ -18,3 +18,6 @@
     Jag fixade så nu står det lite information på sidan, vad är detta för sida och hur den används bland annat.
     Jag har också lagt till så det dyker upp en div under input fältet om det är tomt, för att meddela användaren
     att fältet är tomt. Jag har också ändrat lite på typsnittet, vilket aldrig kommer att kännas som jag har hittat rätt
+
+17/6-21
+    Jag har kommenterat koden, organiserat stylefilerna och pillat med designen (marginaler och liknande)
